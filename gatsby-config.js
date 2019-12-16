@@ -3,7 +3,7 @@ module.exports = {
     title: `Performance Marketing Blog by Panos Makris`,
     name: `Performance Marketing`,
     siteUrl: `https://cocky-goodall-9161f5.netlify.com/`,
-    description: `Εδώ θα βρείτε χρήσιμες πληροφορίες και συμβουές γύρω από το Performance Marketing`,
+    description: `something something`,
     hero: {
       heading: `Performance Marketing Blog Powered by Gatsby and Novela`,
       maxWidth: 652,
@@ -43,6 +43,15 @@ module.exports = {
           local: true,
           //contentful: true,
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-tinacms',
+      options: {
+        plugins: [
+          "gatsby-tinacms-git",
+          "gatsby-tinacms-remark",
+        ],
       },
     },
     {

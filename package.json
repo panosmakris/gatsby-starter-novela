@@ -12,7 +12,11 @@
     "@narative/gatsby-theme-novela": "^0.*",
     "gatsby": "^2.13.41",
     "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-tinacms": "^0.1.16",
+    "gatsby-tinacms-git": "^0.2.14",
+    "gatsby-tinacms-remark": "^0.6.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.4.1"
   }
 }
